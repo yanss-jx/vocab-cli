@@ -30,3 +30,4 @@ Python 3.10+，只用标准库（json / random / argparse / pathlib），零第�
 - [x] add / list
 - [x] remove
 - [ ] quiz + 正确率统计
+第一次自己提交,2026-11-27
