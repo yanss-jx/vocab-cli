@@ -27,6 +27,6 @@ Python 3.10+，只用标准库（json / random / argparse / pathlib），零第�
 ## 进度
 
 - [x] 项目初始化
-- [ ] add / list
-- [ ] remove
+- [x] add / list
+- [x] remove
 - [ ] quiz + 正确率统计

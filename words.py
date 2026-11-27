@@ -40,10 +40,13 @@ if command == "add":
 elif command == "remove":
     word = sys.argv[2]
     data = load()
-    del data[word]
-    save(data)
-    print(f"已删除:{word}")
-    
+    if word not in data:
+        print(f"没有这个单词:{word}")
+    else:
+        del data[word]
+        save(data)
+        print(f"已删除:{word}")
+
 elif command == "list":
     data = load()
     if not data:
